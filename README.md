@@ -23,9 +23,9 @@ Another lil python script to remove individuals from a beagle file.
 
 `-b` to input the beagle file.
 
-`-s` to input the text file that has one sample per line.
+`-s` to input the text file that has one sample per line of samples you want to REMOVE (e.g. a list of Ind9 Ind11 Ind15... all on new lines)
 
-`-o` to name the output of the finished beagle file. Probably should gzip it so that angsd/pcangsd can read it.
+`-o` to name the output of the finished beagle file. Probably should gzip it so that angsd/pcangsd can read it. (e.g. test.beagle.gz)
 
 
 # read_q.py
